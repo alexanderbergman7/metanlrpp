@@ -59,7 +59,7 @@ Train a NLR++ model using the following command:
 python experiment_scripts/train_sdf_ibr.py --config_filepath configs/nlrpp_dtu.txt --experiment_name XXX --dataset_path /path/to/dtu/scanXXX --checkpoint_img_encoder /path/to/pretrained/encdec
 ```
 
-Note that we have uploaded our processed version of the DTU data [here](https://drive.google.com/drive/folders/1dne-NheNYMPVhT4jV-76OiBLUXmLt1xm?usp=sharing), and the NLR data can be found [here](http://www.computationalimaging.org/publications/nlr/).
+Note that we have uploaded our processed version of the DTU and NLR data [here](https://drive.google.com/drive/folders/1dne-NheNYMPVhT4jV-76OiBLUXmLt1xm?usp=sharing). The raw NLR data can be found [here](http://www.computationalimaging.org/publications/nlr/).
 
 #### Meta-learned Initialization (MetaNLR++)
 Meta-learn the initialization for the encoder, decoder, aggregation function, and neural SDF using the following command:
